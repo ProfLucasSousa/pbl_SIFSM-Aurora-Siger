@@ -1,0 +1,50 @@
+flowchart TD
+
+A["Sensores da Colônia"]
+
+B[("Banco SQLite")]
+
+C["Sistema Python"]
+
+D["Regras Booleanas"]
+E["Estruturas de Dados"]
+F["Simulação Energética"]
+G["Regressão Linear"]
+
+H["Coordenador de Agentes"]
+
+I["Agente de Energia"]
+J["Agente Ambiental"]
+K["Agente de Manutenção"]
+
+L["Recomendações"]
+M["Validação Humana"]
+
+A --> B
+B --> C
+
+C --> D
+C --> E
+C --> F
+C --> G
+
+D --> H
+E --> H
+F --> H
+G --> H
+
+H --> I
+H --> J
+H --> K
+
+I --> L
+J --> L
+K --> L
+
+L --> M
+
+style A fill:#0D47A1,color:#fff
+style B fill:#1565C0,color:#fff
+style C fill:#283593,color:#fff
+style H fill:#00695C,color:#fff
+style M fill:#2E7D32,color:#fff
