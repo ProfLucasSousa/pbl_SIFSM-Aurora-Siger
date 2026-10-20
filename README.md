@@ -35,6 +35,13 @@ infraestrutura da Aurora Siger, permitindo:
 
 O projeto utiliza apenas bibliotecas padrão do Python.
 
+## Gráficos e diagramas
+
+Os gráficos e diagramas escritos em Mermaid, como o arquivo
+`graficos_ou_imagens/arquitetura_sistema.mmd`, podem ser renderizados
+no [Mermaid Live Editor](https://mermaid.live/). Basta copiar o conteúdo
+do arquivo e colá-lo no editor.
+
 ## Estruturas de dados
 
 ### Listas
@@ -211,4 +218,5 @@ nem representam validações de engenharia espacial.
 
 ## Autores
 
-Equipe do projeto Aurora Siger.
+- Lucas Sousa — RM: 573029
+- Dayse Borges de Sousa — RM: 573036
